@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+<script>
+//object person
+//create an object
+let person={
+'name':"kevin",
+'age':66,
+'location':"nandi",
+'city':"kisumu",
+
+
+}
+//nested objects
+person.address={
+street:'123 Main street',
+city:'Anytown',
+country:'USA',
+
+}
+//accesing nested objects
+console.log(person.address)
+console.log(Object.keys(person))
+console.log(Object.keys(person))
+console.log(Object.entries(person))
+console.log(person)
+
+//adding data
+person.gender="Male"
+person["ocupation"]="tutor"
+console.log(person)
+
+//updating
+person.city="Mombasa"
+
+//console.log(person.address[2])
+
+//deleting
+delete person.city
+console.log(person)
+
+
+
+</script>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
