@@ -9,7 +9,6 @@
 
 
  let form=document.getElementById("myform")
-
  form.addEventListener("submit")
 
 
